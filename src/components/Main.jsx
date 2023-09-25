@@ -19,7 +19,9 @@ const Main = () => {
 
         <button>Hire Me</button>
       </div>
+
 <br />
+
       <img className="image" src="/image.png" alt="" />
 
       <div className="main-container">
@@ -33,10 +35,12 @@ const Main = () => {
             <h1>20</h1>
             <p>Followers</p>
           </div>
+
           <div className="sectionMiddle">
             <h1>4.5K</h1>
             <p>Following</p>
           </div>
+
           <div className="sectionRight">
             <h1>16</h1>
             <p>Repositories</p>
@@ -72,6 +76,7 @@ const Main = () => {
               <h4>github.com</h4>
             </div>
           </div>
+          
           <div className="cardRight">
             <h4>Bio</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum laudantium eveniet facere itaque odit, commodi modi dolore unde vero.</p>
