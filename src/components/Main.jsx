@@ -19,7 +19,7 @@ const Main = () => {
 
         <button>Hire Me</button>
       </div>
-
+<br />
       <img className="image" src="/image.png" alt="" />
 
       <div className="main-container">
@@ -48,9 +48,11 @@ const Main = () => {
             <div className="leftPart">
               <AiOutlineMail /> <span>Email</span>
               <h4>xyz@gmail.com</h4>
+              <br />
 
               <CiLocationOn /> <span>location</span>
               <h4>New York</h4>
+              <br />
 
               <PiTwitterLogoLight /><span>Twitter</span>
               <h4>@john-4</h4>
@@ -60,9 +62,11 @@ const Main = () => {
             <div className="rightPart">
               <HiOutlineBuildingOffice2 /> <span>Organization</span>
               <h4>Github Inc.</h4>
+              <br />
 
               <MdDateRange/> <span>Joined Date</span>
               <h4>23 Mar, 2022</h4>
+              <br />
 
               <BsGlobe/><span>Website</span>
               <h4>github.com</h4>
