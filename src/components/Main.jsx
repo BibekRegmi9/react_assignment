@@ -13,7 +13,7 @@ const Main = ({ data }) => {
  
   return (
     <>
-    <div id="#main">
+    <div  id="main">
       <div className="top">
         <a href="/">
           <h1>

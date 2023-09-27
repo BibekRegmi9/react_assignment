@@ -1,10 +1,18 @@
 import React, { useState } from "react";
 import Main from "./Main";
+
+
 const Home = () => {
-//   const navigate = useNavigate();
 
-//   const name = [data.name]
-
+  const scrollToBottom = () =>{ 
+    window.scrollTo({ 
+      top: document.documentElement.scrollHeight, 
+      behavior: 'auto'
+      /* you can also use 'auto' behaviour 
+         in place of 'smooth' */
+    }); 
+  }; 
+   
 
   const [userName, setUserName] = useState("");
   const [data, setData] = useState({});
@@ -12,6 +20,8 @@ const Home = () => {
   const onChangeHandler = (e) => {
     setUserName(e.target.value);
   };
+
+  
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
@@ -45,7 +55,7 @@ const Home = () => {
               onChange={onChangeHandler}
             />
 
-            <a href="#main"><button className="btn">Generate</button></a>
+            <a href="#main"><button id="#main" onClick={scrollToBottom} className="btn">Generate</button></a>
           </div>
         </form>
       </div>
@@ -53,7 +63,7 @@ const Home = () => {
     </div>
 
     
-<Main data={data}/>
+<Main data={data} />
     </>
   );
 };
